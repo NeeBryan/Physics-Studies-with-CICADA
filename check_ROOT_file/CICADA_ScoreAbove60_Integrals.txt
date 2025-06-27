@@ -1,0 +1,10 @@
+GluGluHToGG                     v2024:       1205  v2025:        823
+GluGluHToTauTau                 v2024:        881  v2025:        267
+HTo2LongLivedTo4b               v2024:        328  v2025:        108
+TT                              v2024:       1347  v2025:       1031
+VBFHto2B                        v2024:       1068  v2025:        571
+VBFHToTauTau                    v2024:       1520  v2025:        839
+ZprimeToTauTau                  v2024:       1223  v2025:       1091
+ZZ                              v2024:       1001  v2025:        432
+WTo3Pi                          v2024:        663  v2025:        157
+ZeroBiasRun2024I                v2024:        390  v2025:          7

@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "PlotPileupHistos.C": "cpp",
+        "PlotPileup.C": "cpp",
+        "Plot_CICADA_Overlay_All.C": "cpp",
+        "Plot.C": "cpp",
+        "ListTreeBranches.C": "cpp"
+    }
+}
