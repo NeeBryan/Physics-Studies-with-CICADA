@@ -1,0 +1,65 @@
+
+>>> Processing CICADA_HIG-RunIISummer20UL17HLT_2025v11-13144
+Found 166 prescale=1 triggers in data.
+
+CICADA Trigger Efficiency on MC: 0.4418
+
+Selected top 20 triggers:
+  L1_CICADA_VLoose: 0.4418
+  L1_LooseIsoEG22er2p1_IsoTau26er2p1_dR_Min0p3: 0.0137
+  L1_DoubleIsoTau34er2p1: 0.0091
+  L1_DoubleIsoTau35er2p1: 0.0091
+  L1_DoubleIsoTau36er2p1: 0.0091
+  L1_LooseIsoEG24er2p1_IsoTau27er2p1_dR_Min0p3: 0.0091
+  L1_SingleIsoEG30er2p5: 0.0091
+  L1_SingleIsoEG30er2p1: 0.0057
+  L1_SingleIsoEG32er2p5: 0.0057
+  L1_SingleIsoEG34er2p5: 0.0057
+  L1_SingleEG36er2p5: 0.0046
+  L1_SingleIsoEG32er2p1: 0.0034
+  L1_DoubleEG_25_12_er2p5: 0.0023
+  L1_DoubleEG_25_14_er2p5: 0.0023
+  L1_DoubleEG_27_14_er2p5: 0.0023
+  L1_DoubleEG_LooseIso22_12_er2p5: 0.0023
+  L1_DoubleEG_LooseIso25_12_er2p5: 0.0023
+  L1_DoubleJet_65_35_DoubleJet35_Mass_Min600_DoubleJetCentral50: 0.0023
+  L1_DoubleJet_65_35_DoubleJet35_Mass_Min650_DoubleJetCentral50: 0.0023
+  L1_Mu18er2p1_Tau24er2p1: 0.0023
+  L1_Mu20_EG10er2p5: 0.0023
+  L1_Mu7_EG20er2p5: 0.0023
+  L1_Mu7_EG23er2p5: 0.0023
+  L1_SingleEG38er2p5: 0.0023
+  L1_SingleEG40er2p5: 0.0023
+  L1_SingleEG42er2p5: 0.0023
+
+Comparison of Trigger Efficiencies with/without CICADA OR:
+Trigger                                      Orig  OR_CICADA    Delta
+L1_CICADA_VLoose                           0.4418     0.4418   0.0000
+L1_LooseIsoEG22er2p1_IsoTau26er2p1_dR_Min0p3   0.0137     0.4486   0.4349
+L1_DoubleIsoTau34er2p1                     0.0091     0.4441   0.4349
+L1_DoubleIsoTau35er2p1                     0.0091     0.4441   0.4349
+L1_DoubleIsoTau36er2p1                     0.0091     0.4441   0.4349
+L1_LooseIsoEG24er2p1_IsoTau27er2p1_dR_Min0p3   0.0091     0.4475   0.4384
+L1_SingleIsoEG30er2p5                      0.0091     0.4475   0.4384
+L1_SingleIsoEG30er2p1                      0.0057     0.4452   0.4395
+L1_SingleIsoEG32er2p5                      0.0057     0.4441   0.4384
+L1_SingleIsoEG34er2p5                      0.0057     0.4441   0.4384
+L1_SingleEG36er2p5                         0.0046     0.4441   0.4395
+L1_SingleIsoEG32er2p1                      0.0034     0.4429   0.4395
+L1_DoubleEG_25_12_er2p5                    0.0023     0.4429   0.4406
+L1_DoubleEG_25_14_er2p5                    0.0023     0.4429   0.4406
+L1_DoubleEG_27_14_er2p5                    0.0023     0.4429   0.4406
+L1_DoubleEG_LooseIso22_12_er2p5            0.0023     0.4429   0.4406
+L1_DoubleEG_LooseIso25_12_er2p5            0.0023     0.4429   0.4406
+L1_DoubleJet_65_35_DoubleJet35_Mass_Min600_DoubleJetCentral50   0.0023     0.4418   0.4395
+L1_DoubleJet_65_35_DoubleJet35_Mass_Min650_DoubleJetCentral50   0.0023     0.4418   0.4395
+L1_Mu18er2p1_Tau24er2p1                    0.0023     0.4429   0.4406
+L1_Mu20_EG10er2p5                          0.0023     0.4418   0.4395
+L1_Mu7_EG20er2p5                           0.0023     0.4429   0.4406
+L1_Mu7_EG23er2p5                           0.0023     0.4429   0.4406
+L1_SingleEG38er2p5                         0.0023     0.4429   0.4406
+L1_SingleEG40er2p5                         0.0023     0.4429   0.4406
+L1_SingleEG42er2p5                         0.0023     0.4429   0.4406
+
+Saved 'Trigger Alone' plot as top20_trigger_means_HIG-RunIISummer20UL17HLT_2025v11-13144.png
+Saved 'Trigger + CICADA OR' plot as compare_OR_CICADA_HIG-RunIISummer20UL17HLT_2025v11-13144.png
