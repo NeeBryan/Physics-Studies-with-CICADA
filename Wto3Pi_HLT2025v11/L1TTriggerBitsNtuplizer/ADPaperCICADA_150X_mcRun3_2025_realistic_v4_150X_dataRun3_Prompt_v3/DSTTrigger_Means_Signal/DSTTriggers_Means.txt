@@ -1,0 +1,14 @@
+DST_PFScouting_ZeroBias: 1.0000
+DST_PFScouting_CICADAVLoose: 0.4014
+DST_PFScouting_CICADALoose: 0.1904
+DST_PFScouting_CICADAMedium: 0.0604
+DST_PFScouting_CICADATight: 0.0160
+DST_PFScouting_JetHT: 0.0057
+DST_PFScouting_CICADAVTight: 0.0046
+DST_PFScouting_SinglePhotonEB: 0.0046
+DST_PFScouting_SingleMuon: 0.0034
+DST_PFScouting_DoubleMuonNoVtx: 0.0000
+DST_PFScouting_DoubleMuonVtx: 0.0000
+DST_PFScouting_DoubleMuonVtxMonitorJPsi: 0.0000
+DST_PFScouting_DoubleMuonVtxMonitorZ: 0.0000
+DST_PFScouting_DoubleEG: 0.0000

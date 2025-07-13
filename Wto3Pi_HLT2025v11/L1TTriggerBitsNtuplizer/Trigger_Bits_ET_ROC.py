@@ -7,7 +7,7 @@ from sklearn.metrics import roc_curve, auc
 # CONFIGURATION
 # --------------------------------------
 signal_files = {
-    "Wto3Pi": "./ADPaperCICADA/CICADA_HIG-RunIISummer20UL17HLT_2025v11-13144.root"
+    "Wto3Pi": "/afs/hep.wisc.edu/home/cnee/Wto3Pi/MC_Production/CMSSW_15_0_7/src/ADPaper_CICADA/CICADA_HIG-RunIISummer20UL17HLT_2025v11-13144.root"
 }
 
 data_file = "./ADPaperCICADA/CICADA_ZeroBiasRun2024I.root"
@@ -145,3 +145,4 @@ for signal_label, signal_path in signal_files.items():
 
         # Plot ROC
         plot_trigger_roc(labels, scores, bit)
+

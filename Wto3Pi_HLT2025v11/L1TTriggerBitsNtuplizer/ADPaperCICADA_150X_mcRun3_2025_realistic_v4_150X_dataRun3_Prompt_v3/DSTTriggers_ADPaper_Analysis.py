@@ -114,3 +114,4 @@ compute_trigger_efficiencies(
     txt_output=output_txt_file,
     root_output=output_root_file
 )
+
