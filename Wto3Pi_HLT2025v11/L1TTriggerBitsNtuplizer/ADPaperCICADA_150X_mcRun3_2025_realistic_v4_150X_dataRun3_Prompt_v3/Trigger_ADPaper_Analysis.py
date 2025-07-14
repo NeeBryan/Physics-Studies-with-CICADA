@@ -217,7 +217,7 @@ mc_files = [
     "/afs/hep.wisc.edu/user/cnee/Wto3Pi/MC_Production/CMSSW_15_0_7/src/ADPaper_CICADA/CICADA_HIG-RunIISummer20UL17HLT_2025v11-13144.root"
 ]
 
-data_file = "/afs/hep.wisc.edu/user/cnee/Wto3Pi/CMSSW_15_0_7/src/PU_Run3Winter24GS/L1TTriggerBitsNtuplizer/ADPaperCICADA_150X_mcRun3_2025_realistic_v4_150X_dataRun3_Prompt_v3/CICADA_ZeroBiasRun2024I.root"
+data_file = "/afs/hep.wisc.edu/user/cnee/Wto3Pi/CMSSW_15_0_7/src/PU_Run3Winter24GS/L1TTriggerBitsNtuplizer/SimpleCICADA_150X_mcRun3_2025_realistic_v4_150X_dataRun3_Prompt_v3/CICADA_ZeroBiasRun2024I.root"
 
 for mc_file in mc_files:
     mc_base = os.path.basename(mc_file).replace(".root", "")

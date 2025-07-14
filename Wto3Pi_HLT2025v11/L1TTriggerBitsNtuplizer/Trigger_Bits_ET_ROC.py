@@ -146,3 +146,33 @@ for signal_label, signal_path in signal_files.items():
         # Plot ROC
         plot_trigger_roc(labels, scores, bit)
 
+    # --------------------------------------------------------
+    # NEW SECTION: Global HT ROC curve (not trigger dependent)
+    # --------------------------------------------------------
+    print("\n[INFO] Making overall HT ROC curve using *all* events (no triggers).")
+
+    # Combine all HT values
+    all_scores = np.concatenate([signal_ht, data_ht])
+    all_labels = np.concatenate([np.ones_like(signal_ht), np.zeros_like(data_ht)])
+
+    # Compute ROC
+    fpr, tpr, _ = roc_curve(all_labels, all_scores)
+    auc_val = auc(fpr, tpr)
+
+    # Plot
+    plt.figure(figsize=(8, 6))
+    plt.plot(fpr, tpr, label=f"AUC = {auc_val:.3f}", color="darkred", lw=2)
+    plt.plot([0, 1], [0, 1], linestyle="--", color="gray")
+    plt.xlabel("False Positive Rate")
+    plt.ylabel("True Positive Rate")
+    plt.title(f"Global HT ROC Curve\n{signal_label} vs Data")
+    plt.legend(loc="lower right")
+    plt.grid()
+    outname = f"ROC_HT_Global_{signal_label}.png"
+    plt.tight_layout()
+    plt.savefig(outname)
+    plt.close()
+    print(f"Saved global HT ROC curve to {outname}")
+
+
+
