@@ -175,4 +175,3 @@ for signal_label, signal_path in signal_files.items():
     print(f"Saved global HT ROC curve to {outname}")
 
 
-
